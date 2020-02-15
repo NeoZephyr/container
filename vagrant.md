@@ -38,3 +38,6 @@ vagrant plugin list
 vagrant plugin install vagrant-scp
 vagrant scp ../labs/ node01:/home/vagrant/labs/
 ```
+
+## ssh 登录
+vagrant ssh-config >> ~/.ssh/config
